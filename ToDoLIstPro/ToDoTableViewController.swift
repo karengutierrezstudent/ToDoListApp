@@ -14,7 +14,7 @@ class ToDoTableViewController: UITableViewController {
     
     func createToDos() -> [ToDo] {
 
-     let swift = ToDo()
+    let swift = ToDo()
       swift.name = "Learn Swift"
       swift.important = true
         
