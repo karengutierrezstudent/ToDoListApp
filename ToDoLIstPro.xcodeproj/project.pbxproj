@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2208BF7624CFB71600FEEB38 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2208BF7524CFB71600FEEB38 /* AddToDoViewController.swift */; };
 		229FA7AE24CF9A7D00528F72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FA7AD24CF9A7D00528F72 /* AppDelegate.swift */; };
 		229FA7B024CF9A7D00528F72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FA7AF24CF9A7D00528F72 /* SceneDelegate.swift */; };
 		229FA7B524CF9A7D00528F72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229FA7B324CF9A7D00528F72 /* Main.storyboard */; };
@@ -15,9 +16,11 @@
 		229FA7BD24CF9A8100528F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229FA7BB24CF9A8100528F72 /* LaunchScreen.storyboard */; };
 		229FA7C724CFA00A00528F72 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FA7C624CFA00A00528F72 /* ToDoTableViewController.swift */; };
 		229FA7C924CFA05100528F72 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FA7C824CFA05100528F72 /* ToDo.swift */; };
+		22AF869224CFD2A4005A6F5D /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AF869124CFD2A4005A6F5D /* CompleteToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2208BF7524CFB71600FEEB38 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 		229FA7AA24CF9A7D00528F72 /* ToDoLIstPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoLIstPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		229FA7AD24CF9A7D00528F72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		229FA7AF24CF9A7D00528F72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		229FA7BE24CF9A8100528F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		229FA7C624CFA00A00528F72 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		229FA7C824CFA05100528F72 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		22AF869124CFD2A4005A6F5D /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 		229FA7A124CF9A7D00528F72 = {
 			isa = PBXGroup;
 			children = (
+				22AF869124CFD2A4005A6F5D /* CompleteToDoViewController.swift */,
 				229FA7AC24CF9A7D00528F72 /* ToDoLIstPro */,
 				229FA7AB24CF9A7D00528F72 /* Products */,
 			);
@@ -63,6 +68,7 @@
 				229FA7AD24CF9A7D00528F72 /* AppDelegate.swift */,
 				229FA7AF24CF9A7D00528F72 /* SceneDelegate.swift */,
 				229FA7B324CF9A7D00528F72 /* Main.storyboard */,
+				2208BF7524CFB71600FEEB38 /* AddToDoViewController.swift */,
 				229FA7C824CFA05100528F72 /* ToDo.swift */,
 				229FA7C624CFA00A00528F72 /* ToDoTableViewController.swift */,
 				229FA7B924CF9A8100528F72 /* Assets.xcassets */,
@@ -147,7 +153,9 @@
 				229FA7AE24CF9A7D00528F72 /* AppDelegate.swift in Sources */,
 				229FA7C924CFA05100528F72 /* ToDo.swift in Sources */,
 				229FA7C724CFA00A00528F72 /* ToDoTableViewController.swift in Sources */,
+				22AF869224CFD2A4005A6F5D /* CompleteToDoViewController.swift in Sources */,
 				229FA7B024CF9A7D00528F72 /* SceneDelegate.swift in Sources */,
+				2208BF7624CFB71600FEEB38 /* AddToDoViewController.swift in Sources */,
 				229FA7B824CF9A7D00528F72 /* ToDoLIstPro.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
